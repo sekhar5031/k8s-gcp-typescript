@@ -1,0 +1,7 @@
+config:
+  gcp:project: pulumi-k8s-project
+  gcp:region: us-central1
+  k8s-gcp-typescript:nodesPerZone: "1"
+  pulumi:template: kubernetes-gcp-typescript
+environment:
+  - kubernetes-gcp-typescript-dev
